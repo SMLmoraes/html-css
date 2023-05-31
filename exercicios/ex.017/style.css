@@ -1,0 +1,21 @@
+body{
+  font: italic bolder 1em Arial;
+  /* ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆ ⬆
+    resume os comando respequitivamente
+     ⬇  ⬇  ⬇  ⬇  ⬇  ⬇
+   font style: italic;
+  font-weight: bolder;
+  font-size: 3em;
+  font-family: Arial;*/
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: right;
+}
+
+p{
+  text-align:left;
+  text-indent: 30px;
+}

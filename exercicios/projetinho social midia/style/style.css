@@ -5,7 +5,7 @@
     padding: 0px;
 }
 html, body{
-   width: 100vh;
+   width: 100vw;
    height: 100vh;
    background-color: black;
 }
@@ -30,4 +30,24 @@ section#telefone{
     height: 627px;
     background: url('../img/frame-iphone.png') no-repeat;
     
+}
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 266px;
+    height: 479px;
+}
+section#redes{
+    width: 50px;
+    height: 100px ;
+    position: absolute;
+    top: 30%;
+    right: 91%;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }

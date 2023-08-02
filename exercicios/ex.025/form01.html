@@ -7,9 +7,10 @@
 </head>
 <body>
     <h1>meu primerio formulrio</h1>
-    <form action="cadastro.php">
-        <p><label for="inome">nome:</label> <input type="text" name="nome" id="inome"></p>
-        <p><label for="iidade">idade:</label> <input type="text" name="idade" id="iidade"></p>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p><label for="inome">nome:</label> <input type="text" name="nome" id="inome" minlength="3"></p>
+        <p><label for="iidade">idade:</label> <input type="text" name="idade" id="iidade" maxlength="20" size="20"></p>
+        <p><label for="isenha">senha:</label> <input type="password" name="senha" id="isenha" placeholder="sua senha"></p>
         <input type="submit" value="enviar">
     </form>
 </body>
